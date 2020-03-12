@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  height: 100vh;
+  margin: 0px auto;
+  padding: 0px;
+  font-family: "Overpass", sans-serif;
+  max-width: 1366px;
+}
+
+/* @media screen and (max-width: 1366px) {
+  body {
+    margin-top: 110px;
+  }
+} */
+
+#root {
+  height: 100%;
+}
