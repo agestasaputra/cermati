@@ -2,10 +2,14 @@ const color = {
   brand: {
     primaryBlack: "#000000",
     primaryWhite: "#FFFFFF",
-    primaryNavy: "#16243C"
-  },
-  lightGray: "#737680",
-  gray: "#323232"
+    primaryBlue: "#007bc1",
+    primaryDarkBlue: "#004a75",
+    primaryOrange: "#ff8000",
+    primaryDarkOrange: "#cc6600",
+    primaryGray: "#e5e5e5",
+    primaryDarkGray: "#5e5e5e",
+    primaryPurple: "#170849"
+  }
 };
 
 export default color;

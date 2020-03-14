@@ -1,18 +1,23 @@
 import React from "react";
 import { Container } from "./styles";
-import { P2 } from "app/components/font";
+import { P3 } from "app/components/font";
+import Button from "app/components/button";
 
-const Cookies = () => {
+const Cookies = ({ setCookies }) => {
   return (
     <Container.Wrapper>
       <Container.Left>
-        <P2>
+        <P3>
           By accessing and using this website, you acknowledge that you have
           read and understand our Cookie Policy, Privacy Policy, and our Terms
           of Service
-        </P2>
+        </P3>
       </Container.Left>
-      <Container.Right></Container.Right>
+      <Container.Right>
+        <Button width="100%" onClick={() => setCookies(false)}>
+          Got it!
+        </Button>
+      </Container.Right>
     </Container.Wrapper>
   );
 };

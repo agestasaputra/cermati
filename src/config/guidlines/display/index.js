@@ -1,5 +1,5 @@
 const XS_DEVICES_WIDTH = "480px";
-const S_DEVICES_WIDTH = "768px";
+const S_DEVICES_WIDTH = "960px";
 const M_DEVICES_WIDTH = "1024px";
 const L_DEVICES_WIDTH = "1366px";
 

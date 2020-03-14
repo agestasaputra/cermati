@@ -3,14 +3,13 @@ import color from "config/guidlines/color";
 
 export const Wrapper = styled.div`
   cursor: pointer;
-  width: ${props => props.width && props.width};
-  background: ${color.brand.primaryBlack};
+  width: ${props => (props.width ? props.width : "fit-content")};
+  background: transparent;
   height: unset;
   border: unset;
 
   &.disabled {
     border: 1px solid red;
-    /* border: 1px solid ${color.gray}; */
     cursor: not-allowed;
     background: #e8e9e9;
   }
@@ -28,16 +27,19 @@ export const Wrapper = styled.div`
     margin: 0px 5px;
   }
 `;
+
 export const Container = styled.button`
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: transparent;
+  background: #007bfe;
   border: unset;
   color: #fff;
-  width: 100%;
-  padding: 8px 0px;
+  width: ${props => (props.width ? props.width : "unset")};
+  padding: 8px 10px !important;
   cursor: inherit;
+  text-transform: uppercase;
+  font-weight: bold;
 
   /* 
     :hover {
@@ -45,8 +47,12 @@ export const Container = styled.button`
     } 
   */
 
+  &.btn-updates {
+    background: ${color.brand.primaryOrange};
+  }
+
   &.disabled {
-    color: ${color.gray};
+    color: ${color.brand.primaryGray};
     pointer-events: none;
   }
 
@@ -55,13 +61,14 @@ export const Container = styled.button`
   }
 
   &.outline {
-    border: 1px solid black;
-    background: #fff;
-    color: ${color.brand.primaryBlack};
+    border: 2px solid ${color.brand.primaryWhite};
+    background: transparent;
+    text-transform: uppercase;
+    color: ${color.brand.primaryWhite};
 
     :hover {
       svg {
-        fill: ${color.brand.primaryBlack};
+        fill: ${color.brand.primaryWhite};
       }
     }
   }

@@ -2,11 +2,14 @@ import styled from "styled-components";
 import color from "config/guidlines/color";
 
 export const Container = styled.div`
-  padding: 20px 350px;
+  width: 100%;
+  padding: 50px 0px;
   text-align: center;
-  background: ${color.brand.primaryPurple};
+  /* background: ${color.brand.primaryGray}; */
 
-  .text {
-    color: #fff;
+  .title {
+    margin-bottom: 15px;
+  }
+  .desc {
   }
 `;
