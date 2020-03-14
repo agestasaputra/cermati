@@ -18,6 +18,19 @@ export const Container = styled.div`
   @media (max-width: ${XS_DEVICES_WIDTH}) {
     height: 200px;
   }
+
+  .logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 2%;
+    width: auto;
+    height: 10%;
+
+    @media (max-width: ${XS_DEVICES_WIDTH}) {
+      height: 13%;
+    }
+  }
 `;
 
 export const Text = styled.div`

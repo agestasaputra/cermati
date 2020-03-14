@@ -2,11 +2,12 @@ import React from "react";
 import { Container, Text } from "./styles";
 import { H1, H4 } from "app/components/font";
 import Button from "app/components/button";
-// import BannerImg from "app/assets/banner.jpg";
+import Logo from "app/assets/logo.png";
 
 const Banner = () => {
   return (
     <Container>
+      <img className="logo" src={Logo} alt="logo" />
       <Text>
         <H1 className="title-1">Hello! I'm Agesta Saputra</H1>
         <H1 className="title-2">Consult Design, and Develop Websites</H1>
