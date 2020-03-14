@@ -20,12 +20,22 @@ export const Container = {
     }
 
     @media (max-width: ${XS_DEVICES_WIDTH}) {
+      flex-flow: column nowrap;
       padding: 10px 10px;
     }
   `,
   Left: styled.div`
     flex: 1;
     margin-right: 5px;
+
+    a {
+      color: #0000ee;
+    }
+
+    @media (max-width: ${XS_DEVICES_WIDTH}) {
+      flex: unset;
+      margin: 0px 0px 10px 0px;
+    }
   `,
   Right: styled.div`
     display: flex;
