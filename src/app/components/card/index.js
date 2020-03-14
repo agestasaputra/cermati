@@ -11,9 +11,7 @@ const Card = props => {
           <Title>
             <H2>{props.title ? props.title : "-"}</H2>
           </Title>
-          <Icon>
-            <H2>{props.icon ? props.icon : "-"}</H2>
-          </Icon>
+          <Icon>{props.icon ? props.icon : "-"}</Icon>
         </Container.Top>
         <Container.Bottom>
           <Desc>

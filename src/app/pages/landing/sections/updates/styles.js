@@ -3,12 +3,22 @@ import color from "config/guidlines/color";
 
 export const Container = {
   Wrapper: styled.div`
+    position: fixed;
+    bottom: 0;
+    left: 0;
     padding: 20px;
     background: ${color.brand.primaryBlue};
-    opacity: 0.8;
+    opacity: 0.9;
     width: 550px;
   `,
-  Header: styled.div``,
+  Header: styled.div`
+    text-align: right;
+
+    .fa-times {
+      color: ${color.brand.primaryWhite};
+      cursor: pointer;
+    }
+  `,
   Content: styled.div`
     .title {
       color: ${color.brand.primaryWhite};

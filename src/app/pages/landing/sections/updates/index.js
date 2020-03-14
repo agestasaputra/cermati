@@ -3,10 +3,12 @@ import { Container } from "./styles";
 import { H3, P3 } from "app/components/font";
 import Button from "app/components/button";
 
-const Updates = ({ setCookies }) => {
+const Updates = ({ setUpdates }) => {
   return (
     <Container.Wrapper>
-      <Container.Header></Container.Header>
+      <Container.Header>
+        <i className="fa fa-times" onClick={() => setUpdates(false)} />
+      </Container.Header>
       <Container.Content>
         <H3 className="title">Get latest updates in web technologies</H3>
         <P3 className="text">
@@ -21,7 +23,9 @@ const Updates = ({ setCookies }) => {
           type="text"
           placeholder="Email address"
         />
-        <Button className="btn-updates">Count me in!</Button>
+        <Button className="btn-updates" onClick={() => setUpdates(false)}>
+          Count me in!
+        </Button>
       </Container.Footer>
     </Container.Wrapper>
   );

@@ -24,6 +24,11 @@ export const Title = styled.div`
 
 export const Icon = styled.div`
   text-align: right;
+
+  i {
+    color: ${color.brand.primaryDarkGray};
+    font-size: 20px;
+  }
 `;
 
 export const Desc = styled.div`

@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   width: ${props => (props.width ? props.width : "fit-content")};
   background: transparent;
   height: unset;
-  border: unset;
+  border-radius: 0.4em;
 
   &.disabled {
     border: 1px solid red;
@@ -40,6 +40,7 @@ export const Container = styled.button`
   cursor: inherit;
   text-transform: uppercase;
   font-weight: bold;
+  border-radius: 0.4em;
 
   /* 
     :hover {
@@ -67,6 +68,9 @@ export const Container = styled.button`
     color: ${color.brand.primaryWhite};
 
     :hover {
+      background: #fff;
+      color: ${color.brand.primaryBlack};
+
       svg {
         fill: ${color.brand.primaryWhite};
       }

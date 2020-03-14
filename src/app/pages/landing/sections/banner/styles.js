@@ -20,16 +20,24 @@ export const Text = styled.div`
 
   .title-1 {
     color: ${color.brand.primaryWhite} !important;
+    font-weight: 500;
   }
+
   .title-2 {
+    margin: 10px 0px;
     color: ${color.brand.primaryWhite} !important;
   }
+
   .subtitle-1 {
     color: ${color.brand.primaryWhite} !important;
+    font-weight: 500;
   }
+
   .subtitle-2 {
     color: ${color.brand.primaryWhite} !important;
+    font-weight: unset;
   }
+
   .btn {
     margin: 5px auto;
   }
