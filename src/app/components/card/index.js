@@ -9,13 +9,13 @@ const Card = props => {
       <Container.Wrapper width={props.width}>
         <Container.Top>
           <Title>
-            <H2>{props.title ? props.title : "-"}</H2>
+            <H2 className="title">{props.title ? props.title : "-"}</H2>
           </Title>
-          <Icon>{props.icon ? props.icon : "-"}</Icon>
+          <Icon className="icon">{props.icon ? props.icon : "-"}</Icon>
         </Container.Top>
         <Container.Bottom>
           <Desc>
-            <P3>{props.desc ? props.desc : "-"}</P3>
+            <P3 className="desc">{props.desc ? props.desc : "-"}</P3>
           </Desc>
         </Container.Bottom>
       </Container.Wrapper>

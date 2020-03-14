@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import color from "config/guidlines/color";
+import { XS_DEVICES_WIDTH, M_DEVICES_WIDTH } from "config/guidlines/display";
 
 export const Container = styled.div`
   width: 100%;
@@ -11,5 +12,13 @@ export const Container = styled.div`
 
   a {
     text-decoration: none;
+  }
+
+  @media(max-width: ${M_DEVICES_WIDTH}) {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  @media (max-width: ${XS_DEVICES_WIDTH}) {
+    grid-template-columns: 1fr;
   }
 `;

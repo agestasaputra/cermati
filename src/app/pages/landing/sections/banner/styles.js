@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import color from "config/guidlines/color";
 import BannerImg from "app/assets/banner.jpg";
+import { XS_DEVICES_WIDTH, M_DEVICES_WIDTH } from "config/guidlines/display";
 
 export const Container = styled.div`
   width: 100%;
@@ -13,6 +14,10 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
   filter: sepia(90%) hue-rotate(170deg) saturate(500%) grayscale(20%);
+
+  @media (max-width: ${XS_DEVICES_WIDTH}) {
+    height: 200px;
+  }
 `;
 
 export const Text = styled.div`
@@ -26,6 +31,14 @@ export const Text = styled.div`
   .title-2 {
     margin: 10px 0px;
     color: ${color.brand.primaryWhite} !important;
+
+    @media (max-width: ${M_DEVICES_WIDTH}) {
+      margin: 15px 0px;
+    }
+
+    @media (max-width: ${XS_DEVICES_WIDTH}) {
+      margin: 10px 0px;
+    }
   }
 
   .subtitle-1 {

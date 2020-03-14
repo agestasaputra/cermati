@@ -6,7 +6,8 @@ import Description from "./sections/description";
 import Cards from "./sections/cards";
 import Updates from "./sections/updates";
 
-const Landing = ({ state, dispatch, location }) => {
+const Landing = ({ state }) => {
+  console.log("cek state:", state);
   const [cookies, setCookies] = React.useState(true);
   const [updates, setUpdates] = React.useState(true);
   return (
@@ -14,7 +15,7 @@ const Landing = ({ state, dispatch, location }) => {
       {cookies && <Cookies setCookies={setCookies} />}
       <Banner />
       <Description />
-      <Cards />
+      <Cards state={state} />
       {updates && <Updates setUpdates={setUpdates} />}
     </Container>
   );
