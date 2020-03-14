@@ -9,7 +9,7 @@
 }
 
 body {
-  height: 100vh;
+  height: auto;
   margin: 0px auto;
   padding: 0px;
   font-family: "Overpass", sans-serif;
