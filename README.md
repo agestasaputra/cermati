@@ -6,8 +6,8 @@ In the project directory, you can run:
 
 How to run this project:
 
-Yarn install or npm install
-Yarn start or npm start
+1. Yarn install or npm install
+2. Yarn start or npm start
 
 
 ## Live Demo
