@@ -11,4 +11,4 @@ How to run this project:
 
 
 ## Live Demo
-http://agestasaputra-cermati.surge.sh/
+http://agestasaputra-qoala.surge.sh/
