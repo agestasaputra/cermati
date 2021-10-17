@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/cermati/static/css/main.cf7c6c61.chunk.css",
+    "main.js": "/cermati/static/js/main.a9858caf.chunk.js",
+    "main.js.map": "/cermati/static/js/main.a9858caf.chunk.js.map",
+    "runtime-main.js": "/cermati/static/js/runtime-main.b223b11e.js",
+    "runtime-main.js.map": "/cermati/static/js/runtime-main.b223b11e.js.map",
+    "static/css/2.d2ed95ac.chunk.css": "/cermati/static/css/2.d2ed95ac.chunk.css",
+    "static/js/2.be9a858b.chunk.js": "/cermati/static/js/2.be9a858b.chunk.js",
+    "static/js/2.be9a858b.chunk.js.map": "/cermati/static/js/2.be9a858b.chunk.js.map",
+    "index.html": "/cermati/index.html",
+    "precache-manifest.86cf21b28cf7c0f2cb8e8b62242691df.js": "/cermati/precache-manifest.86cf21b28cf7c0f2cb8e8b62242691df.js",
+    "service-worker.js": "/cermati/service-worker.js",
+    "static/css/2.d2ed95ac.chunk.css.map": "/cermati/static/css/2.d2ed95ac.chunk.css.map",
+    "static/css/main.cf7c6c61.chunk.css.map": "/cermati/static/css/main.cf7c6c61.chunk.css.map",
+    "static/js/2.be9a858b.chunk.js.LICENSE.txt": "/cermati/static/js/2.be9a858b.chunk.js.LICENSE.txt",
+    "static/media/banner.jpg": "/cermati/static/media/banner.a5a74b4f.jpg",
+    "static/media/font-awesome.min.css": "/cermati/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b223b11e.js",
+    "static/css/2.d2ed95ac.chunk.css",
+    "static/js/2.be9a858b.chunk.js",
+    "static/css/main.cf7c6c61.chunk.css",
+    "static/js/main.a9858caf.chunk.js"
+  ]
+}
