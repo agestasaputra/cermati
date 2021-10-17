@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-github: https://github.com/agestasaputra/cermati
+Github: https://github.com/agestasaputra/cermati
 
 In the project directory, you can run:
 
