@@ -59,7 +59,6 @@ const reducer = (state, action) => {
         dataLanding: action.data
       };
     default:
-      console.log("error case reducer on root context");
       throw new Error();
   }
 };
