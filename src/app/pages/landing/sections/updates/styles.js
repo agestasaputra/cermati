@@ -84,6 +84,8 @@ export const Container = {
     }
 
     .btn-updates {
+      text-transform: unset;
+      
       @media (max-width: ${XS_DEVICES_WIDTH}) {
         width: 100%;
       }
