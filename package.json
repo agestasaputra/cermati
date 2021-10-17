@@ -1,4 +1,5 @@
 {
+  "homepage": "http://agestasaputra.github.io/cermati",
   "name": "cermati-frontend",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +10,7 @@
     "axios": "^0.19.2",
     "env-cmd": "8.0.2",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^3.2.3",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-router-dom": "^5.1.2",
@@ -16,6 +18,8 @@
     "styled-components": "^5.0.1"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "env-cmd local react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
