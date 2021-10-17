@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cermati/static/css/main.cf7c6c61.chunk.css",
-    "main.js": "/cermati/static/js/main.668dfd0f.chunk.js",
-    "main.js.map": "/cermati/static/js/main.668dfd0f.chunk.js.map",
+    "main.js": "/cermati/static/js/main.5ecec1ec.chunk.js",
+    "main.js.map": "/cermati/static/js/main.5ecec1ec.chunk.js.map",
     "runtime-main.js": "/cermati/static/js/runtime-main.b223b11e.js",
     "runtime-main.js.map": "/cermati/static/js/runtime-main.b223b11e.js.map",
     "static/css/2.d2ed95ac.chunk.css": "/cermati/static/css/2.d2ed95ac.chunk.css",
     "static/js/2.be9a858b.chunk.js": "/cermati/static/js/2.be9a858b.chunk.js",
     "static/js/2.be9a858b.chunk.js.map": "/cermati/static/js/2.be9a858b.chunk.js.map",
     "index.html": "/cermati/index.html",
-    "precache-manifest.d4fe9077cd4076b3d2e0f39e01d0aa5c.js": "/cermati/precache-manifest.d4fe9077cd4076b3d2e0f39e01d0aa5c.js",
+    "precache-manifest.f7331057651b8fb6cd2f1568a9a32047.js": "/cermati/precache-manifest.f7331057651b8fb6cd2f1568a9a32047.js",
     "service-worker.js": "/cermati/service-worker.js",
     "static/css/2.d2ed95ac.chunk.css.map": "/cermati/static/css/2.d2ed95ac.chunk.css.map",
     "static/css/main.cf7c6c61.chunk.css.map": "/cermati/static/css/main.cf7c6c61.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.d2ed95ac.chunk.css",
     "static/js/2.be9a858b.chunk.js",
     "static/css/main.cf7c6c61.chunk.css",
-    "static/js/main.668dfd0f.chunk.js"
+    "static/js/main.5ecec1ec.chunk.js"
   ]
 }
