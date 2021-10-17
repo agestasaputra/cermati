@@ -26,7 +26,7 @@ export const Container = styled.div`
   }
 
   .logo {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     margin: 2%;
