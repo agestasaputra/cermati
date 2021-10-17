@@ -31,10 +31,11 @@ export const Container = styled.div`
     top: 0;
     margin: 2%;
     width: auto;
-    height: 10%;
+    height: 50px;
 
     @media (max-width: ${XS_DEVICES_WIDTH}) {
-      height: 13%;
+      width: 25px;
+      height: 25px;
     }
   }
 `;
