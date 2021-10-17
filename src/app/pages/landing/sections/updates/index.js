@@ -3,11 +3,19 @@ import { Container } from "./styles";
 import { H3, P3 } from "app/components/font";
 import Button from "app/components/button";
 
-const Updates = ({ setUpdates }) => {
+const Updates = ({ onUpdatesClicked }) => {
+
+  React.useEffect(() => {
+    // timeout for 10 minutes
+    setTimeout(()=> {
+      onUpdatesClicked();
+    }, 600000)
+  }, [onUpdatesClicked]);
+
   return (
-    <Container.Wrapper>
+    <Container.Wrapper className="updates">
       <Container.Header>
-        <i className="fa fa-times" onClick={() => setUpdates(false)} />
+        <i className="fa fa-times" onClick={onUpdatesClicked} />
       </Container.Header>
       <Container.Content>
         <H3 className="title">Get latest updates in web technologies</H3>
@@ -23,7 +31,7 @@ const Updates = ({ setUpdates }) => {
           type="text"
           placeholder="Email address"
         />
-        <Button className="btn-updates" onClick={() => setUpdates(false)}>
+        <Button className="btn-updates" onClick={onUpdatesClicked}>
           Count me in!
         </Button>
       </Container.Footer>

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import color from "config/guidlines/color";
-import { XS_DEVICES_WIDTH, M_DEVICES_WIDTH } from "config/guidlines/display";
+import { XS_DEVICES_WIDTH, S_DEVICES_WIDTH, M_DEVICES_WIDTH } from "config/guidlines/display";
 
 export const Container = {
   Wrapper: styled.div`
@@ -9,17 +9,38 @@ export const Container = {
     left: 0;
     padding: 20px;
     background: ${color.brand.primaryBlue};
-    opacity: 0.9;
-    width: 550px;
+    opacity: 0;
+    height: 0px;
+    max-width: 640px;
+    transition: 0.5s;
 
-    @media (max-width: ${M_DEVICES_WIDTH}) {
-      width: 450px;
+    &.show {
+      height: 170px;
+      opacity: 1;
+
+      @media (max-width: ${M_DEVICES_WIDTH}) {
+        max-width: 450px;
+        height: 200px;
+        padding: 15px;
+      }
+
+      @media (max-width: ${S_DEVICES_WIDTH}) {
+        height: 270px;
+        padding: 20px;
+      }
+
+      @media (max-width: ${XS_DEVICES_WIDTH}) {
+        padding: 15px 20px;
+        height: 215px;
+      }
     }
 
-    @media (max-width: ${XS_DEVICES_WIDTH}) {
-      padding: 15px 20px;
-      width: 100vw;
+    &.hidden {
+      height: 0px;
+      opacity: 0;
     }
+
+    
   `,
   Header: styled.div`
     text-align: right;

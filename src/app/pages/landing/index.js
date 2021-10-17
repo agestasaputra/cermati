@@ -7,16 +7,36 @@ import Cards from "./sections/cards";
 import Updates from "./sections/updates";
 
 const Landing = ({ state }) => {
-  console.log("cek state:", state);
-  const [cookies, setCookies] = React.useState(true);
-  const [updates, setUpdates] = React.useState(true);
+  // const [isScrolled, setIsScrolled] = React.useState(false);
+
+  React.useEffect(() => {
+    window.addEventListener('scroll', e => onScrolled(e));
+  }, []);
+
+  const onScrolled = () => {
+    if (window.scrollY > 100) {
+      const updatesElement = document.querySelector('.updates');
+      updatesElement.classList.add('show');
+    }
+  }
+
+  const onCookiesClicked = () => {
+    const cookiesElement = document.querySelector('.cookies');
+    cookiesElement.classList.add('hidden');
+  }
+
+  const onUpdatesClicked = () => {
+    const updatesElement = document.querySelector('.updates');
+    updatesElement.classList.add('hidden');
+  }
+
   return (
     <Container>
-      {cookies && <Cookies setCookies={setCookies} />}
+      <Cookies onCookiesClicked={onCookiesClicked} />
       <Banner />
       <Description />
       <Cards state={state} />
-      {updates && <Updates setUpdates={setUpdates} />}
+      <Updates onUpdatesClicked={onUpdatesClicked} />
     </Container>
   );
 };

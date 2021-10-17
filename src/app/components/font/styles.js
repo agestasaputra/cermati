@@ -20,6 +20,7 @@ export const H1Styles = styled.h1`
 
   @media (max-width: ${S_DEVICES_WIDTH}) {
     font-size: 32px;
+    line-height: 35px;
   }
 
   @media (max-width: ${XS_DEVICES_WIDTH}) {
@@ -60,6 +61,7 @@ export const H3Styles = styled.h3`
 
   @media (max-width: ${M_DEVICES_WIDTH}) {
     font-size: 17px;
+    line-height: 27px;
   }
 
   @media (max-width: ${S_DEVICES_WIDTH}) {
