@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cermati/precache-manifest.f7331057651b8fb6cd2f1568a9a32047.js"
+  "/cermati/precache-manifest.9586d6da2e7b832552d63c7bcb855c65.js"
 );
 
 self.addEventListener('message', (event) => {
