@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "67d135707d53c7983e3c31d31c0ece8b",
+    "revision": "4dc73f3bc16febc436a506b815050371",
     "url": "/cermati/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cermati/static/css/2.d2ed95ac.chunk.css"
   },
   {
-    "revision": "b5af8e4314c07197138e",
-    "url": "/cermati/static/css/main.cf7c6c61.chunk.css"
+    "revision": "a1d8c88b59744e214553",
+    "url": "/cermati/static/css/main.2942d605.chunk.css"
   },
   {
     "revision": "1fc0b5ff72e5b15404e6",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cermati/static/js/2.be9a858b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b5af8e4314c07197138e",
-    "url": "/cermati/static/js/main.6e4e80ce.chunk.js"
+    "revision": "a1d8c88b59744e214553",
+    "url": "/cermati/static/js/main.7c400e94.chunk.js"
   },
   {
     "revision": "534af14638848c6b2ddc",
