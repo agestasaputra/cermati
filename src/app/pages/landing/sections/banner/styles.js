@@ -6,14 +6,15 @@ import { XS_DEVICES_WIDTH, S_DEVICES_WIDTH, M_DEVICES_WIDTH } from "config/guidl
 export const Container = styled.div`
   width: 100%;
   height: 550px;
-  background-image: 
-    linear-gradient(to bottom, rgb(8 1 111 / 65%), rgba(18,42, 66, .85)), 
+  background-image:
+    linear-gradient(to bottom, rgb(8 1 111 / 65%), rgba(18,42, 66, .85)),
     url(${BannerImg});
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
   display: flex;
-  align-items: center;
+  flex-flow: column nowrap;
+  align-items: flex-start;
   justify-content: center;
   filter: sepia(90%) hue-rotate(170deg) saturate(500%) grayscale(20%);
 
@@ -26,9 +27,6 @@ export const Container = styled.div`
   }
 
   .logo {
-    position: absolute;
-    left: 0;
-    top: 0;
     margin: 2%;
     width: auto;
     height: 50px;
@@ -40,8 +38,19 @@ export const Container = styled.div`
   }
 `;
 
+export const Header = styled.div`
+  flex: 0.1;
+  width: 100%;
+`
+
 export const Text = styled.div`
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
   text-align: center;
+  margin-bottom: 5%;
 
   .title-1 {
     color: ${color.brand.primaryWhite} !important;
