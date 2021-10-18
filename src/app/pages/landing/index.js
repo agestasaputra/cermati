@@ -14,7 +14,7 @@ const Landing = ({ state }) => {
   }, []);
 
   const onScrolled = () => {
-    if (window.scrollY > 100) {
+    if (window.scrollY > 100 || window.pageYOffset > 100) {
       const updatesElement = document.querySelector('.updates');
       updatesElement.classList.add('show');
     }
